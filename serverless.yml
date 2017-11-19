@@ -21,3 +21,5 @@ functions:
       - http:
           path: /imageResize
           method: get
+plugins:
+  - serverless-aws-alias

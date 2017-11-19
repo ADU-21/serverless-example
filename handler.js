@@ -20,7 +20,7 @@ module.exports.imageResize = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Resize Your Image',
+      message: 'this is new version for Resize Your Image',
       // input: event,
     }),
   };
