@@ -2,8 +2,8 @@
   "name": "lambda-test",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
-  "devDependencies": {
-    "serverless-aws-alias": "^1.5.0"
-  }
+  "dependencies": {
+    "docker-lambda": "^0.13.4"
+  },
+  "devDependencies": {}
 }
