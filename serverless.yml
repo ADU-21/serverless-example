@@ -1,4 +1,4 @@
-service: lambda-test # NOTE: update this with your service name
+service: hello-serverless # NOTE: update this with your service name
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -14,10 +14,4 @@ functions:
     events:
       - http:
           path: /
-          method: get
-  imageResize:
-    handler: handler.imageResize
-    events:
-      - http:
-          path: /imageResize
           method: get
